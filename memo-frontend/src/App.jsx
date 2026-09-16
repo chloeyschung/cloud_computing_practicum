@@ -29,7 +29,6 @@ export default function App() {
   return (
     <div style={{ maxWidth: 480, margin: "40px auto", fontFamily: "sans-serif" }}>
       <h1>📝 메모장</h1>
-      <p><a href="/intro.html">← 개인 소개 페이지로 돌아가기</a></p>
       <div style={{ display: "flex", gap: 8 }}>
         <input value={text} onChange={(e) => setText(e.target.value)}
           placeholder="메모를 입력하세요" style={{ flex: 1, padding: 8 }} />
